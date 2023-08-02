@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head id="header">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style3.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+  </style>
+
+  <title>Document</title>
+</head>
+<div class="start">
+  <nav>
+    <div class="classs2ai">
+      <div class="classs2a">
+        <div class="classsi">
+          <h1>HELP US SAVE OTHERS</h1>
+          <p>THE MORE DATA YOU PROVIDE ABOUT COVID 19 THE MORE WE CAN HELP SAVE OTHERS</p>
+        </div>
+        <div class="classsii">
+          <img src="img/people-wearing-medical-mask_52683-35467.jpg" alt="Image" class="imgluid">
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<body  class="bodie1">
+  <div class="classs1">
+    <div class="classs2">
+
+      <form action="forms.php" method="POST">
+        <div class="form">
+          <div class="item">
+            <label for="name">Number of Positive Cases<span></span></label>
+            <div class="name-item">
+              <input name='npc' id="name" type="text" class="edit" placeholder="Enter the number of positive cases" required />
+            </div>
+          </div>
+          <div class="item">
+            <label for="name">Number of Death Cases<span></span></label>
+            <div class="name-item">
+              <input name="ndc" id="name" type="text" class="edit" placeholder="Enter the number of death cases" required />
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <div class="item">
+            <label for="name">Number of Males<span></span></label>
+            <div class="name-item">
+              <input id="name" type="text" name="nm" class="edit" placeholder="Enter the number of males" required />
+            </div>
+          </div>
+          <div class="item">
+            <label for="name">Number of Females<span></span></label>
+            <div class="name-item">
+              <input id="name" type="text" name="nf" class="edit" placeholder="Enter the number of females" required />
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <div class="item">
+            <label for="bdate">Date<span></span></label>
+            <div class="name-item">
+            <input id="bdate" type="date" class="edit" name="date" required />
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          </div>
+          <div class="item">
+            <label for="name">Region<span></span></label>
+            <div class="name-item">
+              <input id="name" type="text" name="region" class="edit" placeholder="Enter your region name" required />
+            </div>
+          </div>
+          </div>
+          <div class="form">
+          <div class="item">
+            <label for="nrc">Number of recovery case<span></span></label>
+            <div class="name-item">
+            <input id="nrc" type="text" class="edit" name="nrc" placeholder="Enter number of recovered cases" required />
+          </div>
+          </div>
+          </div>
+          <div class="btn-block">
+            <button type="submit" class="edit1" href="/">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

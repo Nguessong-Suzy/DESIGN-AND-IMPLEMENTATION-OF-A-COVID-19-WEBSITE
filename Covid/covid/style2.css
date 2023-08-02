@@ -1,0 +1,228 @@
+.head{
+    font-weight: 900;
+    font-size: 40px;
+}
+.same{
+    font-weight: bolder; 
+    width: 200px; 
+     background-color: #33ff33;
+     border-color: #33ff33;
+     height: 35px;
+     border:none;
+     margin-top:15px;
+  }
+
+
+
+.text {
+    font-size: 18px;
+}
+/* this is where the styles of the cases comes in */
+#contain{
+    display:flex;
+    justify-content: space-around;
+    margin:100px;
+    padding: 50px;
+    background: rgb(240, 235, 235);
+    border-radius: 20px;
+  }
+.months{
+    font-weight: bolder;
+    color:black;
+    font-size: 23px;
+    margin-right: 10px;
+  }
+  #months{
+    font-size: 12px;
+    border-color: #47eef4 ;
+    height: 25px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+  }
+  .section{
+      text-align: center;
+      margin-top:100px;
+  }
+  .section-heading{
+    font-size: 32px;
+    color: #33ff33;
+  }
+  .section-paragraph{
+     font-size: 18px; 
+}
+.number{
+    font-size: 27px;
+    padding-top: 25px;
+}
+.year{
+    font-size: 30px;
+}
+#link1{
+    font-size: 15px;
+}
+.sign{
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.left{
+    /* border: solid 1px black; */
+    flex:1;
+    margin-left: 50px;
+    padding-left:20px;
+}
+.right{
+    /* border:solid 2px blue; */
+    flex: 1;
+}
+.content{
+   background: white;
+   width:350px;
+   height: 400px;
+   margin:20px;
+   border-radius: 10px;
+   margin-left: 150px;
+   padding-right: 10px;
+}
+.input{
+    width:300px;
+    height:35px;
+    margin-left: 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    background: rgb(187, 187, 211);
+    padding-left: 10px;
+  }
+  #input2{
+    margin-top: 20px
+  }
+  #input3{
+    background: blue;
+    height:40px;
+    
+  }
+  .choice{
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .icons{
+      display: flex;
+      justify-content: space-around;
+      margin-top:30px;
+  }
+  .icon{
+    border:none;
+    background:whitesmoke;
+    border-radius: 5px;
+    height:30px;
+    width:30px;
+  }
+  .illustrate{
+    border-radius: 20px;
+    height: 400px;
+    width:600px;
+  }
+  .illustrat{
+    border-radius: 20px;
+    height: 400px;
+  
+ 
+  }
+  .choice{
+    margin-left: 40px;
+    margin-top: 50px;
+  }
+  .statistics{
+  font-weight: normal;
+  margin-top: -20px;
+
+}
+.para{
+  font-size: 18px;
+  margin-top: 20px;
+
+}
+.reg{
+color:red;
+}
+#toggle{
+  margin-left:-30px;
+  cursor: pointer;
+}
+
+.right1{
+  /* border:solid black 1px; */
+  margin-top:10px;
+  margin-left:100px;
+  width:65%;
+  padding-left:20px;
+  padding-bottom: 55px;
+  border-radius: 15px; 
+  background: white;
+
+}
+.containx{
+  width:400px;
+  height:400px;
+  margin:0 auto;
+  border-radius: 10px;
+ margin-top:20px;
+
+}
+.forms label{
+  display:block;
+}
+.input :focus{
+ outline:none;
+ border-color:white;
+ box-shadow: none;
+ outline-color:white;
+}
+.info{
+  font-weight: bolder;
+ font-size: 25px;
+ padding-top:-10px;
+}
+.forms{
+  font-size:18px;
+  margin-bottom: 10px;
+}
+.forms input{
+  width:350px;
+  height:25px;
+  /* border-color:rgb(20, 153, 230); ; */
+}
+#illustrate{
+  height: 450px;
+  width:600px;
+}
+#parb{
+ padding-top:40px;
+}
+.submit{
+  background-color:rgb(125, 215, 219);
+  border:none;
+ text-align: center;
+  width:150px;
+  padding:10px;
+  border-radius:5px;
+  margin-left: 100px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  transition: background-color 3s ease-in-out;
+  font-family: 'Lato', sans-serif;
+  margin-left: 90px;
+}
+.submit:focus{
+  background:rgb(20, 153, 230); 
+}
+.cases{
+  margin-top: 50px;
+}
+/* .label{
+  font-size: 22px;
+font-weight: bolder;
+} */
+
+
+
